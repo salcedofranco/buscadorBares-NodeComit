@@ -60,23 +60,11 @@ app.get("/bares", (req, res) => {
     });
 });
 
-app.get("/comprar", (req, res) => {
-    res.render('comprar');
-});
-
-app.get("/aceptada", (req, res) => {
-    res.render('aceptada');
-});
-
-app.get("/sumarse", (req, res) => {
-    res.render('sumarse');
-});
-
 
 
 
 /**El código que configura el servidor. localhost:5000 en este caso */
 
-app.listen(5000, () => {
+app.listen(process.env.PORT, () => {
     console.log("Puerto 5000 funcionando!");
 });
