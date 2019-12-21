@@ -2,7 +2,7 @@
 
 Primer muestra
 
-MPV de  proyecto NodeJs  y Express . La idea del proyecto consiste en la realizacion de una pagina web montada sobre un servidor local que brinde informacion acerca de bares en la ciuedad de Mendoza en los que se pueda ir a tomar cerveza artesanal.
+MPV de  proyecto NodeJs  y Express . La idea del proyecto consiste en la realizacion de una pagina web montada sobre un servidor local que brinde informacion acerca de bares en la ciudad de Mendoza en los que se pueda ir a tomar cerveza artesanal.
 
 DEPLOY EN HEROKU https://proyectonodejs-primermuestra.herokuapp.com/
 
@@ -16,7 +16,7 @@ Imagen Demo
 <li>Boostrap</li>
 <li>Flexbox</li>
 <li>Node.Js</li>
-<li>Express</li>
+<li>Express (nodemon handlebar)</li> 
 </ul>
 
 ***Tareas a Realizar***
