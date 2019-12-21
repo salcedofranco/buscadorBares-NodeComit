@@ -1,0 +1,65 @@
+.redes-sociales{
+    position: fixed;
+    top: 200px;
+    z-index: 100;
+    left: 0;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    
+    
+
+}
+
+#facebook a{
+    background-color:#3A5795;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    width: 56px;
+    border-radius: 0 1rem 0 0;
+}
+
+#facebook a:hover{
+    background:#3A5795;
+    padding: 10px 55px;
+}
+
+#twitter a{
+    background-color: #55acee;
+    padding: 10px 18px;
+    color: #fff;
+    text-decoration: none;
+    width: 56px;
+}
+#twitter a:hover{
+    background:#55acee;
+    padding: 10px 55px;
+}
+
+#instagram a{
+    background-color: #125688;
+    padding: 10px 18px;
+    color: #fff;
+    text-decoration: none;
+    width: 56px;
+}
+#instagram a:hover{
+    background:#125688;
+    padding: 10px 55px;
+
+}
+
+#correo a{
+    background-color: #C30907;
+    padding: 10px 18px;
+    color: #fff;
+    text-decoration: none;
+    width: 56px;
+    border-radius: 0 0 1rem 0;
+}
+#correo a:hover{
+    background:#C30907;
+    padding: 10px 55px;
+
+}

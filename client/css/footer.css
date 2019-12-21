@@ -1,0 +1,25 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-one {
+    border: 1px solid #fff;
+    background-color: rgb(250, 108, 26);
+    height: 200px;
+    flex: 1;
+  }
+
+  .footer-two {
+    border: 1px solid #fff;
+    background-color: rgb(255, 239, 17);
+    height: 200px;
+    flex: 1;
+  }
+
+  .footer-three {
+    border: 1px solid #fff;
+    background-color: rgb(255, 16, 16);
+    height: 200px;
+    flex: 1;
+  }

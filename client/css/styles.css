@@ -1,0 +1,194 @@
+
+body{
+  background-color:blue ;
+}
+
+.titulo{
+  margin-bottom: 90px;
+  font-family: "Staatliches", cursive;
+}
+  .titulo h1{
+    color: rgba(58, 58, 58, 0.925);
+    font-family: "Staatliches", cursive;
+    font-size: 70px;  
+  }
+
+  .titulo h4{
+    color:red;
+  }
+
+  @media (max-width: 500px) {
+    .titulo h1 {
+      font-size: 50px;
+    }
+  }
+ 
+
+    .subtitulo{
+    color: red;
+    }
+    
+    .header { 
+      
+        margin: 0 auto;
+        padding: 0 auto;
+        display: flex;
+         top: 50%;
+        left: 50%;
+        position: absolute;
+        transform: translateX(-50%) translateY(-50%);
+        align-items: center;
+        flex-direction: column;
+        
+        
+    }
+/*...............................................................*/
+    .header-container {
+      
+        background-image: url('/img/bar6.jpg');
+        background-size: cover;
+        background-position: center center;
+        height: 550px;
+        text-align: center;
+        justify-content: center;
+    
+      }
+
+
+      .content {
+        height: 250px;
+        text-align: center;
+        justify-content: center;
+      }
+
+      .uno{
+        margin: 0 auto;
+        padding: 0 auto;
+        height: 550px;
+        display: flex;
+          background-color: rgb(83, 83, 83);
+          background-image: url('/img/bar78.jpg');
+          text-align: center;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+
+      }
+
+      .busqueda{
+        font-family: sans-serif;
+        text-align: center;
+        justify-content: center;
+        }
+
+        .buscarproducto{
+            color: white;
+            margin-bottom: 330px;
+            font-family: "Staatliches", cursive;
+        }
+
+        
+
+      
+      .dos{
+        width: 300px;
+        height: 400px;
+        color: seagreen;
+        background-color: sienna;
+
+      }
+
+      .tres{
+        width: 300px;
+        height: 300px;
+        color: seagreen;
+        background-color: rgb(26, 226, 126);
+
+      }
+
+
+
+
+      @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.localidad{
+  font-family: fantasy;
+  font-size: 20px;
+}
+
+
+section{
+  background-color: rgb(255, 62, 62);
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+  .contact--ws {
+    padding: 10px 0;
+    display: -webkit-box;
+    display: flex;
+    justify-content: space-around;
+    background-color: #1BD741;
+    background-image: -webkit-gradient(linear, left top, right top, from(#3e7a4a), color-stop(#1BD741), to(#3e7a4a));
+    background-image: linear-gradient(to right, #3e7a4a, #1BD741, #3e7a4a); }
+    .contact--ws div > p {
+      margin-bottom: 0;
+      font-size: 1.2em;
+      font-weight: bold; }
+    .contact--ws div > a {
+      color: #282C2F;
+      font-size: 1.2em;
+      font-family: "Staatliches", cursive;
+      font-weight: bold; }
+    .contact--ws p {
+      font-size: 1.3em;
+      font-weight: bold;
+      letter-spacing: 0.09em; }
+  

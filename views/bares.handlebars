@@ -1,0 +1,40 @@
+<main>
+
+<header class="lugares">
+    <h1>Hemos encontrado {{listaBares.length}} lugares para vos: </h1>
+
+</header>
+
+{{#each listaBares}}
+<section>
+    <article>
+        <div class="bar"> 
+            <div class="nombreBar">
+            <p> {{this.descripcion}}</p>
+            </div>
+            <div><img class="imagen" src="img/{{this.imagen}}" style="width: 100%" height="auto"></div>
+            <br>
+            <p>Ubicación:</p>
+            <iframe src={{this.map}} width="100%" height="auto" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </article>
+
+</section>
+<br>
+
+
+</main>
+
+<script>
+
+    function comprarProducto() {
+
+        let url = "/comprar"
+
+        let comprar = document.getElementById("comprar");
+
+        location = url;
+    }
+</script>
+<script src = "https://maps.googleapis.com/maps/api/js"></script>
+{{/each}}

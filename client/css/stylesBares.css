@@ -1,0 +1,71 @@
+.lugares{
+    background-color: rgb(255, 208, 0);
+    background-image: url('/img/barBusqueda.jpg');
+      height: auto;
+      width: 100%;
+      background-position: bottom;
+      background-size: cover;
+      display: -webkit-box;
+      display: flex;
+      -webkit-box-direction: normal;
+              flex-direction: column;
+      -webkit-box-pack: center;
+              justify-content: center;
+      
+             
+      
+  }
+  .lugares h1 {
+   color: rgba(248, 190, 0, 0.849);
+  margin-top: 63vh;
+  margin-bottom: 9vh;
+  background-color: rgba(0, 0, 0, 0.404);
+  width: 100%;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Staatliches", cursive;
+  }
+
+  article {
+    background-image: linear-gradient(to bottom, rgba(255, 196, 0, 0.884), #e05200, #fffb00);
+  }
+
+  .lista{
+      color: rgb(196, 120, 21);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 0;
+    background-color: rgb(219, 165, 14);
+    font-family: "Staatliches", cursive;
+    font-size: 60px;
+  }
+
+  article{
+    background-color: rgb(247, 207, 31);
+    padding: 35px;
+  }
+
+.nombreBar{
+    color: rgb(0, 0, 0);
+    font-family: "Staatliches", cursive;
+    font-size: 50px;
+    align-items: center;
+  }
+
+  .bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000000;
+    font-size: 3.5m;
+    width: 96%;
+    font-family: "Staatliches", cursive;
+    margin: 0 auto;
+  }
+
+  .imagen{
+    width: 100%;
+  height: auto;
+  }

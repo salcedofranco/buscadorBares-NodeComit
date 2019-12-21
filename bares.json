@@ -1,0 +1,39 @@
+[
+    {
+        "nombre": "Lujan de Cuyo",
+        "descripcion": "The Beer Club " ,
+        "imagen": "beerClubLujan.jpg",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497.4896939619169!2d-68.8829085121801!3d-32.98535801442758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e0a8d5f6cfbad%3A0x90c6614ad0448811!2sThe%20Beer%20Club!5e0!3m2!1ses-419!2sar!4v1574862509325!5m2!1ses-419!2sar"
+    },
+
+    {
+        "nombre": "Lujan de Cuyo",
+        "descripcion": "23 Rios Crafbeer",
+        "imagen": "23riosLujan.jpg",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3346.6845203221897!2d-68.8503477854482!3d-32.98572418090946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e0b043b3dc37d%3A0xdf8dd1560e4dc18f!2s23%20R%C3%ADos%20Craftbeer!5e0!3m2!1ses-419!2sar!4v1574869707495!5m2!1ses-419!2sar"
+    },
+
+    {
+        "nombre": "Lujan de Cuyo",
+        "descripcion": "Holmes",
+        "imagen": "holmes.jpg",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3346.6845203221897!2d-68.8503477854482!3d-32.98572418090946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e0b043b3dc37d%3A0xdf8dd1560e4dc18f!2s23%20R%C3%ADos%20Craftbeer!5e0!3m2!1ses-419!2sar!4v1574869707495!5m2!1ses-419!2sar"
+
+        
+    },
+        {
+            "nombre": "Godoy Cruz",
+            "descripcion": "El Rinconcito ",
+            "imagen": "elRinconcitoGodoy.jpg",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.5820156571267!2d-68.85294148544986!3d-32.93563998092438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e0bd1c700dacb%3A0x91219366fdf9f55!2sEl%20Rinconcito!5e0!3m2!1ses-419!2sar!4v1574866517860!5m2!1ses-419!2sar"      
+        },
+
+        {
+            "nombre": "Godoy Cruz",
+            "descripcion": "Hangar 54 ",
+            "imagen": "Hangar.jpg",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.5820156571267!2d-68.85294148544986!3d-32.93563998092438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e0bd1c700dacb%3A0x91219366fdf9f55!2sEl%20Rinconcito!5e0!3m2!1ses-419!2sar!4v1574866517860!5m2!1ses-419!2sar" 
+        }
+    ]
+
+       

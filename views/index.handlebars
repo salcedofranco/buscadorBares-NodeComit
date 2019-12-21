@@ -1,0 +1,77 @@
+ <div class="redes-sociales">
+        <div id="facebook"><a href="https://www.facebook.com/" class="fab fa-facebook-f" target="none" ></a></div>  
+        <div id="twitter"><a href="https://twitter.com/" class="fab fa-twitter" target="none"></a></div>
+        <div id="instagram"><a href="https://www.instagram.com/?hl=es-la" class="fab fa-instagram"target="none" ></a></div>
+        <div id="correo"><a href="https://mail.google.com/" class="fas fa-envelope-square" target="none"></a></div>
+</div>
+
+<div>
+   <header class="header-container">
+      <div class='header'>
+          <div class="titulo">
+            <h1>A DÓNDE PINTA?</h1>
+            <h4>Busca tu bar más cercano de cerveza artesanal en Mendoza</h4>
+          </div>
+      </div>
+    </header>
+  </div>
+
+   <br>
+
+  <section class="uno">
+      <div class="buscarproducto">
+          <label for="producto"><h2>Ingresa una localidad de Mendoza</h2></label>
+          <input class="form-control form-control-borderless form-control-lg" type="text" name="product" id="product" placeholder="Ej: Lujan de Cuyo">
+          <button class="btn btn-primary" id="buscar" onclick="buscarBar()">Buscar</button>
+      </div>
+    </section>
+<br>
+
+ 
+
+
+<div class='footer'>
+      <div class='footer-item footer-one'>
+        <h1>+</h1>
+      </div>
+      <div class='footer-item footer-two'>
+        <h1>+</h1>
+        </div>
+      <div class='footer-item footer-three'>
+          <h1>+</h1>
+      </div>
+    </div>
+    <br>
+
+    <div class="contact--ws">
+        <p>Proyecto final realizado en curso ComIt de Node.js por Franco Salcedo </p>
+    </div>
+
+    <br>
+    <br>
+
+
+<script>
+    /** Esta funcion llamada del botón buscar, lleva a la url en donde se arrojan los resultados */
+    function buscarBar() {
+
+        /** url del app.get "/bares", queda "localhost:3000/bares" */
+
+        let url = "/bares?"
+
+        /** Se crea el elemento del string que se pone en la búsqueda dentro del input*/
+
+        let product = document.getElementById("product").value;
+
+        /** Se arma la url de la página con los resultados arrojados según la búsqueda. Ej, si se buscó "lujan", queda "http://localhost:5000/bares?bares=lujan" **/
+
+        if (product) {
+            url += "bares=" + product;
+        }
+
+        location = url;
+    }
+
+    
+
+</script>
