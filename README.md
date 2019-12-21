@@ -6,6 +6,9 @@ MPV de  proyecto NodeJs  y Express . La idea del proyecto consiste en la realiza
 
 DEPLOY EN HEROKU https://proyectonodejs-primermuestra.herokuapp.com/
 
+Imagen Demo
+<img src="imagenDemo.jpg"></img>
+
 **Para el desarrollo utilice:**
 <ul>
 <li>Etiquetas HTML</li>
