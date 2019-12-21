@@ -75,7 +75,7 @@ app.get("/sumarse", (req, res) => {
 
 
 
-/**El código que configura el servidor. localhost:3000 en este caso */
+/**El código que configura el servidor. localhost:5000 en este caso */
 
 app.listen(5000, () => {
     console.log("Puerto 5000 funcionando!");
