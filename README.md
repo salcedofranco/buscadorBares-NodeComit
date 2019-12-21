@@ -1,4 +1,4 @@
-**Proyecto Final de Curso Node.Js**
+<h1>Proyecto Final de Curso Node.Js</h1>
 
 Primer muestra
 
@@ -7,14 +7,14 @@ MPV de  proyecto NodeJs  y Express . La idea del proyecto consiste en la realiza
 DEPLOY EN HEROKU https://proyectonodejs-primermuestra.herokuapp.com/
 
 **Para el desarrollo utilice:**
--Etiquetas HTML
--Estilos CSS
--Boostrap
--Flexbox
--Node.Js
--Express
-
-<h1>Holaa</h1>
+<ul>
+<li>Etiquetas HTML</li>
+<li>Estilos CSS</li>
+<li>Boostrap</li>
+<li>Flexbox</li>
+<li>Node.Js</li>
+<li>Express</li>
+</ul>
 
 ***Tareas a Realizar***
 -Terminar footer
