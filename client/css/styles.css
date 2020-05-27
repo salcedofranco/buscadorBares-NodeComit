@@ -9,8 +9,9 @@ body{
 }
   .titulo h1{
     color: rgba(58, 58, 58, 0.925);
-    font-family: "Staatliches", cursive;
-    font-size: 70px;  
+    font-family: 'Open Sans', sans-serif;
+    font-size: 70px; 
+    font-weight: bold; 
   }
 
   .titulo h4{
@@ -84,8 +85,18 @@ body{
         .buscarproducto{
             color: white;
             margin-bottom: 330px;
-            font-family: "Staatliches", cursive;
+            font-family: 'Open Sans', sans-serif;
+            padding-bottom: 1em;
         }
+
+        .buscarproducto input{
+          padding-bottom: 5px;
+        }
+
+        .uno .buscarproducto .botonBuscar{
+          padding-top: 6px;
+        }
+
 
         
 

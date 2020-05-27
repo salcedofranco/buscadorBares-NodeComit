@@ -68,3 +68,5 @@ app.get("/bares", (req, res) => {
 app.listen(process.env.PORT, () => {
     console.log("Puerto 5000 funcionando!");
 });
+
+//app.listen(3000);

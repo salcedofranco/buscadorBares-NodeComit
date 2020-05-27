@@ -1,30 +1,33 @@
+body{
+  background-color:  rgba(248, 168, 20, 0.973) !important;
+}
+
 .lugares{
-    background-color: rgb(255, 208, 0);
-    background-image: url('/img/barBusqueda.jpg');
-      height: auto;
-      width: 100%;
-      background-position: bottom;
-      background-size: cover;
-      display: -webkit-box;
-      display: flex;
-      -webkit-box-direction: normal;
-              flex-direction: column;
-      -webkit-box-pack: center;
-              justify-content: center;
-      
-             
+  background-color: rgba(255, 196, 0, 0.884) ;
+}
+
+.lugares .imagenBar img{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    background-size: cover;
+    position: relative; 
       
   }
-  .lugares h1 {
-   color: rgba(248, 190, 0, 0.849);
-  margin-top: 63vh;
-  margin-bottom: 9vh;
-  background-color: rgba(0, 0, 0, 0.404);
+
+  .lugares .numeroLugares h2 {
+   color: hsl(7, 84%, 47%);
+  
+  background-color: rgba(255, 0, 0, 0.404);
   width: 100%;
   display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "Staatliches", cursive;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px ;
   }
 
   article {
@@ -38,7 +41,7 @@
     align-items: center;
     padding: 4px 0;
     background-color: rgb(219, 165, 14);
-    font-family: "Staatliches", cursive;
+    font-family: 'Open Sans', sans-serif;
     font-size: 60px;
   }
 
@@ -49,7 +52,7 @@
 
 .nombreBar{
     color: rgb(0, 0, 0);
-    font-family: "Staatliches", cursive;
+    font-family: 'Open Sans', sans-serif;
     font-size: 50px;
     align-items: center;
   }
@@ -61,7 +64,7 @@
     color: #000000;
     font-size: 3.5m;
     width: 96%;
-    font-family: "Staatliches", cursive;
+    font-family: 'Open Sans', sans-serif;
     margin: 0 auto;
   }
 

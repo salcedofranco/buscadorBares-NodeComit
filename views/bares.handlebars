@@ -1,7 +1,13 @@
-<main>
+<main style="background-color:  rgba(255, 196, 0, 0.884);">
 
-<header class="lugares">
-    <h1>Hemos encontrado {{listaBares.length}} lugares para vos: </h1>
+<header class="lugares" >
+
+    <div class="imagenBar">
+         <img class="img-fluid" src="/img/barBusqueda.jpg" alt="">
+    </div>
+    <div class="numeroLugares">
+        <h2>Hemos encontrado {{listaBares.length}} lugares para vos: </h2>
+    </div>
 
 </header>
 
@@ -12,7 +18,7 @@
             <div class="nombreBar">
             <p> {{this.descripcion}}</p>
             </div>
-            <div><img class="imagen" src="img/{{this.imagen}}" style="width: 100%" height="auto"></div>
+            <div><img class="img-fluid max-width: 100%; height: auto;" class="imagen " src="img/{{this.imagen}}" ></div>
             <br>
             <p>Ubicación:</p>
             <iframe src={{this.map}} width="100%" height="auto" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -20,7 +26,7 @@
     </article>
 
 </section>
-<br>
+
 
 
 </main>
