@@ -1,52 +1,36 @@
- <div class="redes-sociales">
-        <div id="facebook"><a href="https://www.facebook.com/" class="fab fa-facebook-f" target="none" ></a></div>  
-        <div id="twitter"><a href="https://twitter.com/" class="fab fa-twitter" target="none"></a></div>
-        <div id="instagram"><a href="https://www.instagram.com/?hl=es-la" class="fab fa-instagram"target="none" ></a></div>
-        <div id="correo"><a href="https://mail.google.com/" class="fas fa-envelope-square" target="none"></a></div>
-</div>
 
-<div>
-   <header class="header-container">
-      <div class='header'>
-          <div class="titulo">
-            <h1>A DÓNDE PINTA?</h1>
-            <h4>Busca tu bar más cercano de cerveza artesanal en Mendoza</h4>
-          </div>
-      </div>
+
+
+   <header class="header-bg">
+     
+     <video id="videoBG" poster="./img/beer.jpg" autoplay muted loop>
+            <source src="./img/bgBeer.mp4" type="video/mp4">
+      </video>
+
     </header>
-  </div>
-
-  <section class="uno">
-      <div class="buscarproducto">
-          <label for="producto"><h2>Ingresa una localidad de Mendoza</h2></label>
-          <input class="form-control form-control-borderless form-control-lg" type="text" name="product" id="product" placeholder="Ej: Lujan de Cuyo">
-         <div class="botonBuscar"><button class="btn btn-primary" id="buscar" onclick="buscarBar()">Buscar</button></div> 
-      </div>
-    </section>
-<br>
 
  
 
-
-<div class='footer'>
-      <div class='footer-item footer-one'>
-        <h1>+</h1>
+   <section class="buscarproducto">
+      <div class="titulos">
+        <h1>A DÓNDE PINTA?</h1>
+        <h2>Busca tu bar mas cercano de cerveza artesanal en Mendoza </h2>
       </div>
-      <div class='footer-item footer-two'>
-        <h1>+</h1>
-        </div>
-      <div class='footer-item footer-three'>
-          <h1>+</h1>
+
+      <div class="barra-busqueda">
+        <label for="producto"><h2>Ingresa una localidad de Mendoza</h2></label>
+        <input class="form-control form-control-borderless form-control-lg" style="padding: 10px;" type="text" name="product" id="product" placeholder="Ej: Lujan de Cuyo">
+        <div class="botonBuscar"><button class="btn btn-primary" id="buscar" onclick="buscarBar()">Buscar</button></div> 
       </div>
-    </div>
-    <br>
 
-    <div class="contact--ws">
-        <p>Proyecto final realizado en curso ComIt de Node.js por Franco Salcedo </p>
+      <div class="redes">
+      <i class="fab fa-facebook fa-3x"></i>
+      <i class="fab fa-twitter-square fa-3x"></i>
+      <i class="fab fa-instagram fa-3x"></i>
     </div>
+    </section>
 
-    <br>
-    <br>
+
 
 
 <script>

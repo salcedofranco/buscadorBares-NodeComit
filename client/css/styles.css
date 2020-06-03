@@ -1,74 +1,125 @@
+html,body {
+  width:100vw;
+    height: 100vh;
+    margin: 0;
 
-body{
-  background-color:blue ;
+}
+#videoBG {
+  position:fixed;
+  z-index: -1;
+}
+@media (min-aspect-ratio: 16/9) {
+  #videoBG {
+      width:100%;
+      height: auto;
+  }
+}
+@media (max-aspect-ratio: 16/9) {
+  #videoBG { 
+      width:auto;
+      height: 100%;
+  }
+}
+@media (max-width: 767px) {
+  #videoBG {
+      display: flex;
+      width:auto;
+      height: 100%;
+  }
+  
 }
 
-.titulo{
-  margin-bottom: 90px;
-  font-family: "Staatliches", cursive;
+
+.buscarproducto{
+  padding-top: 15em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
 }
-  .titulo h1{
-    color: rgba(58, 58, 58, 0.925);
+
+
+.buscarproducto .titulos h1{
+  text-align: center;
+  color: rgba(41, 41, 41, 0.925);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 70px; 
+  font-weight: bold; 
+}
+
+.buscarproducto .titulos h2{
+  color: rgba(197, 0, 0, 0.925);
     font-family: 'Open Sans', sans-serif;
-    font-size: 70px; 
-    font-weight: bold; 
-  }
-
-  .titulo h4{
-    color:red;
-  }
-
-  @media (max-width: 500px) {
-    .titulo h1 {
-      font-size: 50px;
-    }
-  }
- 
-
-    .subtitulo{
-    color: red;
-    }
+    text-align: center;
+    font-size: 30px; 
+    font-weight: bold;
+    padding-bottom: 3em;
     
-    .header { 
-      
-        margin: 0 auto;
-        padding: 0 auto;
-        display: flex;
-         top: 50%;
-        left: 50%;
-        position: absolute;
-        transform: translateX(-50%) translateY(-50%);
-        align-items: center;
-        flex-direction: column;
-        
-        
-    }
+
+}
+
+.barra-busqueda{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.barra-busqueda h2{
+  font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 30px; 
+    
+    
+
+}
+
+.barra-busqueda input{
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+    
+
+}
+
+.barra-busqueda .botonBuscar{
+  text-align: center;
+  padding-top: 5px;
+}
+
+.redes{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding-top: 6em;
+
+}
+
+.redes i{
+  padding: 0px 30px 0px 30px;
+  color: rgb(39, 39, 39);
+  
+
+}
+  
+    
 /*...............................................................*/
-    .header-container {
-      
-        background-image: url('/img/bar6.jpg');
-        background-size: cover;
-        background-position: center center;
-        height: 550px;
-        text-align: center;
-        justify-content: center;
+   
+
+
     
-      }
-
-
-      .content {
-        height: 250px;
-        text-align: center;
-        justify-content: center;
-      }
 
       .uno{
         margin: 0 auto;
         padding: 0 auto;
         height: 550px;
         display: flex;
-          background-color: rgb(83, 83, 83);
-          background-image: url('/img/bar78.jpg');
+      
           text-align: center;
           align-items: center;
           justify-content: center;
@@ -101,26 +152,9 @@ body{
         
 
       
-      .dos{
-        width: 300px;
-        height: 400px;
-        color: seagreen;
-        background-color: sienna;
-
-      }
-
-      .tres{
-        width: 300px;
-        height: 300px;
-        color: seagreen;
-        background-color: rgb(26, 226, 126);
-
-      }
 
 
 
-
-      @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 .search {
   width: 100%;
@@ -171,35 +205,8 @@ body{
 }
 
 
-section{
-  background-color: rgb(255, 62, 62);
-  margin-bottom: 10px;
-}
 
 
 
 
 
-
-  .contact--ws {
-    padding: 10px 0;
-    display: -webkit-box;
-    display: flex;
-    justify-content: space-around;
-    background-color: #1BD741;
-    background-image: -webkit-gradient(linear, left top, right top, from(#3e7a4a), color-stop(#1BD741), to(#3e7a4a));
-    background-image: linear-gradient(to right, #3e7a4a, #1BD741, #3e7a4a); }
-    .contact--ws div > p {
-      margin-bottom: 0;
-      font-size: 1.2em;
-      font-weight: bold; }
-    .contact--ws div > a {
-      color: #282C2F;
-      font-size: 1.2em;
-      font-family: "Staatliches", cursive;
-      font-weight: bold; }
-    .contact--ws p {
-      font-size: 1.3em;
-      font-weight: bold;
-      letter-spacing: 0.09em; }
-  
